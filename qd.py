@@ -3,9 +3,9 @@ import json
 from urllib.parse import quote
 import time
 ##设置自己的openid，cookie的最后一行就是openid
-openid = "o0AN1jtXnFOI4IyoQwnHDpQ64Blc" 
+openid = "" 
 ###设置server酱的sckey
-sckey = "SCU78908T2a08f478d4eb8f472d2574a4641cc2345e2daa6c74aa9"
+sckey = ""
 def qd():
     session = requests.session()
     url = "http://wx.ah.189.cn/AhdxTjyl/qd.do"
