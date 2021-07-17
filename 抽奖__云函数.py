@@ -7,7 +7,7 @@ id = ""
  ### 建立一个会话，可以把同一用户的不同请求联系起来；直到会话结束都会自动处理cookies###
 session = requests.session()
 def get_info(openid):
-    url = "http://ahds.10006.info/ahdxcj/index.do?code=091rotyT0ZawE12ogfxT09dsyT0rotyV&state=123"
+    url = "http://ahds.10006.info/ahdxcj/index.do?code=091ufW000rwr4M1zea1006Jzv74ufW0u&state=123"
     headers = {"Upgrade-Insecure-Requests": "1","Cookie":"openid=" + openid,"User-Agent":"Mozilla/5.0 (Linux; Android 9; MI 8 Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045111 Mobile Safari/537.36 MMWEBID/8116 MicroMessenger/7.0.10.1580(0x27000A56) Process/tools NetType/WIFI Language/zh_CN ABI/arm64"}
  
     ###获取网页信息###
