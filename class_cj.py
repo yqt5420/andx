@@ -3,8 +3,8 @@ import re
 import json
 
 class Lucky():
-    url = "http://wx.ah.189.cn/ahwx/usercenter.do?code=001LWwOv0LeNed1yGSOv0ltgOv0LWwOW&state=123"
-    get_info_url = "http://ahds.10006.info/ahdxcj/indexcj.do?code=001LWwOv0LeNed1yGSOv0ltgOv0LWwOW&state=123"
+    url = "http://wx.ah.189.cn/ahwx/usercenter.do?code=091ufW000rwr4M1zea1006Jzv74ufW0u&state=123"
+    get_info_url = "http://ahds.10006.info/ahdxcj/indexcj.do?code=091ufW000rwr4M1zea1006Jzv74ufW0u&state=123"
     cjtime_url = "http://ahds.10006.info/ahdxcj/cjtimes.do"
     cj_url = "http://ahds.10006.info/ahdxcj/cj.do"
     User_Agent = "Mozilla/5.0 (Linux; Android 9; MI 8 Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045111 Mobile Safari/537.36 MMWEBID/8116 MicroMessenger/7.0.10.1580(0x27000A56) Process/tools NetType/WIFI Language/zh_CN ABI/arm64"
